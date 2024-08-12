@@ -1,0 +1,42 @@
+Tema 1.1: Elementos del modelo de objetos
+Definición de conceptos:
+
+Explica con tus propias palabras los siguientes conceptos y da un ejemplo en un lenguaje de programación que conozcas:
+Clase
+Objeto
+Abstracción
+Modularidad
+Encapsulamiento
+Herencia
+Polimorfismo
+Implementación básica:
+
+Crea una clase Animal en un lenguaje de programación orientado a objetos de tu elección. La clase debe tener los siguientes atributos y métodos:
+Atributos: nombre, edad.
+Métodos: comer(), dormir().
+Luego, crea una subclase llamada Perro que herede de Animal e implemente un método adicional llamado ladrar().
+Encapsulamiento y abstracción:
+
+Implementa una clase CuentaBancaria que tenga atributos privados como saldo, titular y métodos públicos como depositar(cantidad) y retirar(cantidad). Asegúrate de que el saldo nunca sea negativo.
+Explica cómo el encapsulamiento ayuda a proteger los datos dentro de la clase.
+Herencia y polimorfismo:
+
+Crea una jerarquía de clases con las siguientes características:
+Clase base Vehiculo con atributos como marca y modelo, y métodos como arrancar().
+Subclases Coche y Motocicleta que hereden de Vehiculo e implementen el método arrancar() de forma diferente.
+Escribe un código que demuestre el polimorfismo utilizando un método que reciba un objeto de tipo Vehiculo y llame al método arrancar().
+Tema 1.2: Lenguaje de modelado unificado: diagrama de clases
+Creación de un diagrama de clases básico:
+
+Dibuja un diagrama de clases que represente un sistema de gestión de biblioteca. Incluye las clases Libro, Usuario, Prestamo y Bibliotecario. Define sus atributos y métodos básicos, así como las relaciones entre estas clases.
+Asociaciones, agregación y composición:
+
+En el contexto de un sistema de gestión de cursos universitarios, dibuja un diagrama de clases que incluya las siguientes clases: Curso, Estudiante, Profesor y Departamento.
+Asegúrate de utilizar asociaciones, agregación y composición según corresponda. Por ejemplo, Estudiante y Profesor podrían tener una asociación con Curso, mientras que Curso podría tener una relación de composición con Departamento.
+Herencia en diagramas de clases:
+
+Crea un diagrama de clases que muestre una jerarquía de herencia para un sistema de ventas en línea. Incluye una clase base Producto y subclases como Electronica, Ropa, y Alimentos. Muestra cómo estas subclases heredan atributos y métodos de Producto.
+Caso práctico con diagrama de clases:
+
+Diseña un sistema de reservas de hotel utilizando un diagrama de clases. El sistema debe incluir clases como Hotel, Habitación, Reserva, Cliente, y Pago. Define relaciones entre estas clases, y describe cómo se gestionan las reservas en este sistema.
+Estos ejercicios te ayudarán a entender y aplicar los conceptos fundamentales de la programación orientada a objetos y el uso de UML en la modelación de sistemas.
